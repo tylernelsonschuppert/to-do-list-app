@@ -1,0 +1,13 @@
+.list-header {
+    height: 50px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.list-header > h1 {
+    color: #61dafb;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 400;
+}

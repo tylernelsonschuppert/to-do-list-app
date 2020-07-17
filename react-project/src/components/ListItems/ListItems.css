@@ -1,0 +1,73 @@
+.list-item-container {
+    padding: 10px;
+}
+
+.list-item-row-bgoverlay {
+    background-color: white;
+    border-radius: 5px;
+}
+
+.list-item-row {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: rgba(0, 15, 227, 0.1);
+    border: 1px solid black;
+    box-shadow: -1px -1px #888888;
+    border-radius: 5px;
+}
+
+.list-item-username {
+    flex-direction: column;
+    flex-basis: 10%;
+    justify-content: center;
+    text-align: center;
+}
+
+.list-item-id {
+    flex-direction: column;
+    flex-basis: 10%;
+    justify-content: center;
+}
+.list-item-details {
+    flex-direction: column;
+    flex-basis: 50%;
+    justify-content: center;
+}
+
+.list-item-deletebutton-container {
+    flex-direction: column;
+    flex-basis: 15%;
+    justify-content: center;
+}
+
+.list-item-editbutton-container {
+    flex-direction: column;
+    flex-basis: 15%;
+    justify-content: center;
+}
+
+.list-item-editbutton {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.list-item-deletebutton {
+    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+}
